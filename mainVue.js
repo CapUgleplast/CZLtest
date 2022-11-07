@@ -6,7 +6,6 @@ new Vue({
         transposeVel: 1,
         elvState: true,
         levelEvents: [],
-        tablet: document.getElementsByClassName("levelTablet"),
         lvlDir: 6
     }
     ,
