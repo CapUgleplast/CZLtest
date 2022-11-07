@@ -1,0 +1,157 @@
+.elvImage {
+    height: 130px;
+    transform: translateY(0px);
+
+}
+.levels {
+    transform: translateY(0px);
+
+    width: 10px;
+    height: 120px;
+}
+
+.black{
+    background: url("images/black.png");
+    height: 960px;
+}
+
+.btn{
+    position: relative;
+    margin-top: 40px;
+}
+
+.title{
+    color: greenyellow;
+    position: absolute;
+    z-index: 100;
+}
+
+.table{
+    margin-left: 500px;
+    width: 500px;
+}
+
+.body{
+    background: url("images/black.png");
+    background-size: 100px ;
+}
+
+.containerElv{
+    position: relative;
+    margin-top: 68px;
+}
+
+.darkRound {
+    position: absolute;
+    margin-top: -850px;
+    margin-left: -810px;
+    opacity: 70%;
+    z-index: -100;
+
+}
+.levelTablet{
+    font-family: "SimSun";
+    position: absolute;
+    color: greenyellow;
+    font-size: 18px;
+    transform: translateY(-133px);
+    margin-left: 19px;
+}
+.levelTabletBlur{
+    filter: blur(5px);
+}
+
+.arrowFont{
+    position: absolute;
+    font-family: "Webdings";
+    margin-left: 34px;
+    transform: translateY(-133px);
+}
+
+.wall{
+    position: absolute;
+    height: 800px;
+    width: 50px;
+    background: url("images/elvWall.png");
+    background-repeat: no-repeat;
+    margin-left: 600px;
+    transform: translateY(-710px);
+}
+
+.leftWall{
+    margin-left: 430px;
+}
+
+.floorBlock{
+    position: absolute;
+    height: 50px;
+    z-index: -50;
+    width: 200px;
+    background: url("images/floorBlock.png");
+    background-repeat: no-repeat;
+    margin-left: 435px;
+    transform: translateY(15px);
+}
+
+.lvl2{
+    transform: translateY(-128px);
+}
+.lvl3{
+    transform: translateY(-266px);
+}
+.lvl4{
+    transform: translateY(-404px);
+}
+.lvl5{
+    transform: translateY(-542px);
+}
+
+.lvl6{
+    transform: translateY(-700px);
+}
+
+.floors{
+    position: absolute;
+    background: url("images/floors.png");
+    height: 753px;
+    z-index: 0;
+    width: 1000px;
+    background-repeat: no-repeat;
+    transform: translateY(-700px);
+    margin-left: 630px;
+}
+
+.bricks{
+    position: absolute;
+    background: url("images/brick-wall.png");
+    height: 750px;
+    z-index: -100;
+    width: 170px;
+    opacity: 60%;
+    background-repeat: no-repeat;
+    transform: translateY(-700px);
+    margin-left: 455px;
+}
+
+.btn{
+    --bs-btn-font-weight: 600;
+    z-index: 50;
+    opacity: 100% !important;
+    color: greenyellow !important;
+    background-color: #212121;
+    border-color: greenyellow !important;
+}
+
+.btn1{
+    transform: translateY(25px);
+}
+
+.btn2{
+    transform: translateY(15px);
+}
+
+.btn3{
+    transform: translateY(7px);
+}
+
+
